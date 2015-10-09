@@ -1,0 +1,26 @@
+{
+    "name":"VitaOpus/CreateShapes",
+    "keywords": ["VO", "CreateShapes"],
+    "version":"1.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Badashov Anton",
+            "email": "developer@vitaopus.ru"
+        }
+    ],
+    "require":{
+        "php":">=5.4.*"
+    },
+    "autoload":{
+        "classmap": [
+            "src/Controllers",
+            "src/Models",
+            "src/Shapes"
+        ],
+        "psr-0": {
+            "VO\\CreateShapes\\": "src/"
+        }
+    }
+}
+
