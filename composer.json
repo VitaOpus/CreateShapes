@@ -19,7 +19,7 @@
             "src/Shapes"
         ],
         "psr-0": {
-            "VO\\CreateShapes\\": "src/"
+            "VO\\CreateShape\\": "src/"
         }
     }
 }
